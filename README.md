@@ -79,6 +79,7 @@ class PersonalData {
         + setAddress(String):void
     }
 ```
+![PersonalData](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/Izmir-Java-Bootcamp/homework-1/main/personalData.txt)
 
 A PersonalData object is created using one of the two constructors.  First constructor uses `java.time.LocalDate` and social security number (SSN) data.  Second constructor uses three integers and a long value.  The three integers correspond to year, month and day values of a date, while long value corresponds to the SSN.  In the implementation of the second constructor, you must use **this** keyword.
 
@@ -98,6 +99,7 @@ class Student {
         + toString():String
     }
 ```
+![Student](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/Izmir-Java-Bootcamp/homework-1/main/student.txt)
 
 A student object is created by specifying his/her name, ID, GPA and personal data. 
 A student object can be expressed as a String by simply concatenating its name, ID and GPA successively.
@@ -126,6 +128,8 @@ class Course {
 
     }
 ```
+![Course](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/Izmir-Java-Bootcamp/homework-1/main/course.txt)
+
 Each course object has a **capacity**.  A course is created in two ways; either by specifying only its name or by specifying its **name** and **capacity**.  Default **capacity** value for a course object is 40. You must use **this** keyword in the implementation of first constructor. 
 
 **numberOfStudents** holds the number of students currently enrolled to the course.
