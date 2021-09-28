@@ -172,7 +172,7 @@ A course object is expressed as a String by concatenating its name, number of st
     - Best student of K130 is dropped from K130.
     - All students of K130 are printed on the screen.
     - GPA of youngest student of K130 is printed on the screen.
-    - Courses CSE141 and K130 are printed on the screen.
+    - Courses K129 and K130 are printed on the screen.
 
 
 ## Kaynaklar
